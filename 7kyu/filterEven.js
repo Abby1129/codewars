@@ -5,9 +5,9 @@ function evenNumbers(array, number) {
   // good luck
   return array
     .filter(function (x) {
-      return x % 2 === 0;
+      return x % 2 === 0; // filter out all odd numbers and return only even numbers
     })
-    .slice(-number);
+    .slice(-number); // return the last number of even numbers from the array (in the same order)
 }
 
 console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3));
