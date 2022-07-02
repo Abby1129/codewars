@@ -1,3 +1,3 @@
 function squareSum(numbers) {
-  return numbers.reduce((acc, curr) => acc + curr * curr, 0);
+  return numbers.reduce((sum, num) => sum + num * num, 0);
 }
