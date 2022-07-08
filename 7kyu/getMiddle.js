@@ -5,5 +5,3 @@ function getMiddle(s) {
   }
   return s.substring(middle, middle + 1);
 }
-
-console.log(getMiddle("test"));
